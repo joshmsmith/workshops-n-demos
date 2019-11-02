@@ -1,0 +1,958 @@
++----------------------------------------------------------+
+    Available Repositories in /etc/yum.repos.d/redhat.repo
++----------------------------------------------------------+
+Repo ID:   rhel-7-workstation-fastrack-debug-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - Fastrack (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/fastrack/rhel/workstation/7/$basearch/debug
+Enabled:   0
+
+Repo ID:   rhel-workstation-rhscl-7-source-rpms
+Repo Name: Red Hat Software Collections Source RPMs for Red Hat Enterprise Linux 7 Workstation
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/rhscl/1/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-supplementary-beta-debug-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - Supplementary Beta (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/supplementary/debug
+Enabled:   0
+
+Repo ID:   rhel-atomic-7-cdk-2.3-rpms
+Repo Name: Red Hat Container Development Kit 2.3 /(RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/2.3/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-openstack-8-tools-source-rpms
+Repo Name: Red Hat OpenStack Platform 8 Tools for RHEL 7 Workstation (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/openstack-tools/8/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-workstation-rhscl-7-debug-rpms
+Repo Name: Red Hat Software Collections Debug RPMs for Red Hat Enterprise Linux 7 Workstation
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/rhscl/1/debug
+Enabled:   0
+
+Repo ID:   rhel-atomic-7-cdk-3.8-rpms
+Repo Name: Red Hat Container Development Kit 3.8 /(RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.8/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-thirdparty-oracle-java-beta-source-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - Oracle Java Beta (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/oracle-java/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-atomic-7-cdk-3.7-rpms
+Repo Name: Red Hat Container Development Kit 3.7 /(RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.7/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-rhn-tools-beta-source-rpms
+Repo Name: RHN Tools for Red Hat Enterprise Linux 7 Workstation Beta (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/rhn-tools/source/SRPMS
+Enabled:   0
+
+Repo ID:   jdv-textonly-1-for-middleware-rpms
+Repo Name: Red Hat JBoss Data Virtualization Text-Only Advisories
+Repo URL:  https://cdn.redhat.com/content/dist/middleware/jdv/1.0/$basearch/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-optional-beta-debug-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - Optional Beta (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/optional/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-optional-beta-source-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - Optional Beta (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/optional/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-satellite-tools-6.3-puppet4-source-rpms
+Repo Name: Red Hat Satellite Tools 6.3 - Puppet 4 (for RHEL 7 Workstation) (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/sat-tools/6.3-puppet4/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-rh-common-beta-debug-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - RH Common Beta (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/rh-common/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-rhceph-1.3-tools-rpms
+Repo Name: Red Hat Ceph Storage Tools 1.3 for Red Hat Enterprise Linux 7 Workstation (RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/ceph-tools/1.3/os
+Enabled:   0
+
+Repo ID:   rhel-atomic-7-cdk-3.1-source-rpms
+Repo Name: Red Hat Container Development Kit 3.1 /(Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.1/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-optional-source-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - Optional (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/optional/source/SRPMS
+Enabled:   0
+
+Repo ID:   rh-sso-textonly-1-for-middleware-rpms
+Repo Name: Single Sign-On Text-Only Advisories
+Repo URL:  https://cdn.redhat.com/content/dist/middleware/rh-sso/1.0/$basearch/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-rhn-tools-source-rpms
+Repo Name: RHN Tools for Red Hat Enterprise Linux 7 Workstation (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/rhn-tools/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-satellite-tools-6-beta-source-rpms
+Repo Name: Red Hat Satellite Tools 6 Beta (for RHEL 7 Workstation) (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/sat-tools/6/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-dotnet-beta-source-rpms
+Repo Name: dotNET on RHEL Beta Source RPMs for Red Hat Enterprise Linux 7 Workstation
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/dotnet/1/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-atomic-7-cdk-3.2-rpms
+Repo Name: Red Hat Container Development Kit 3.2 /(RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.2/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-satellite-maintenance-6-rpms
+Repo Name: Red Hat Satellite Maintenance 6 (for RHEL 7 Workstation) (RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/sat-maintenance/6/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-openstack-9-tools-debug-rpms
+Repo Name: Red Hat OpenStack Platform 9 Tools for RHEL 7 Workstation (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/openstack-tools/9/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-optional-htb-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - Optional HTB (RPMs)
+Repo URL:  https://cdn.redhat.com/content/htb/rhel/workstation/7/$basearch/optional/os
+Enabled:   0
+
+Repo ID:   fuse-textonly-1-for-middleware-rpms
+Repo Name: Red Hat JBoss Fuse Text-Only Advisories
+Repo URL:  https://cdn.redhat.com/content/dist/middleware/fuse/1.0/$basearch/os
+Enabled:   0
+
+Repo ID:   rhel-atomic-7-cdk-3.5-debug-rpms
+Repo Name: Red Hat Container Development Kit 3.5 /(Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.5/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-satellite-tools-6.2-source-rpms
+Repo Name: Red Hat Satellite Tools 6.2 (for RHEL 7 Workstation) (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/sat-tools/6.2/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-satellite-maintenance-6-source-rpms
+Repo Name: Red Hat Satellite Maintenance 6 (for RHEL 7 Workstation) (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/sat-maintenance/6/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-openstack-10-tools-source-rpms
+Repo Name: Red Hat OpenStack Platform 10 Tools for RHEL 7 Workstation (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/openstack-tools/10/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-atomic-7-cdk-3.2-source-rpms
+Repo Name: Red Hat Container Development Kit 3.2 /(Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.2/source/SRPMS
+Enabled:   0
+
+Repo ID:   amq-clients-2-for-rhel-7-workstation-source-rpms
+Repo Name: Red Hat AMQ Clients 2 (RHEL 7 Workstation) (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/amq/2/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-extras-source-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - Extras (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/extras/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-satellite-tools-6-puppet-upgrade-beta-source-rpms
+Repo Name: Red Hat Satellite Tools 6 Beta - Puppet Upgrade (for RHEL 7 Workstation) (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/sat-tools/6-puppet-upgrade/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-dotnet-rpms
+Repo Name: dotNET on RHEL RPMs for Red Hat Enterprise Linux 7 Workstation
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/dotnet/1/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-thirdparty-oracle-java-beta-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - Oracle Java Beta (RPMs)
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/oracle-java/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-dotnet-debug-rpms
+Repo Name: dotNET on RHEL Debug RPMs for Red Hat Enterprise Linux 7 Workstation
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/dotnet/1/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-dotnet-beta-debug-rpms
+Repo Name: dotNET on RHEL Beta Debug RPMs for Red Hat Enterprise Linux 7 Workstation
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/dotnet/1/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-openstack-11-tools-source-rpms
+Repo Name: Red Hat OpenStack Platform 11 Tools for RHEL 7 Workstation (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/openstack-tools/11/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-rh-common-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - RH Common (RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/rh-common/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-satellite-tools-6.2-debug-rpms
+Repo Name: Red Hat Satellite Tools 6.2 (for RHEL 7 Workstation) (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/sat-tools/6.2/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-rh-common-source-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - RH Common (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/rh-common/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-atomic-7-cdk-3.0-beta-debug-rpms
+Repo Name: Red Hat Container Development Kit 3.0 Beta /(Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/atomic/7/$basearch/cdk/3.0/debug
+Enabled:   0
+
+Repo ID:   rhel-atomic-7-cdk-2.4-debug-rpms
+Repo Name: Red Hat Container Development Kit 2.4 /(Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/2.4/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-extras-beta-debug-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - Extras Beta (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/extras/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-dotnet-source-rpms
+Repo Name: dotNET on RHEL Source RPMs for Red Hat Enterprise Linux 7 Workstation
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/dotnet/1/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-atomic-7-cdk-3.9-rpms
+Repo Name: Red Hat Container Development Kit 3.9 /(RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.9/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-beta-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation Beta (RPMs)
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-satellite-tools-6.5-source-rpms
+Repo Name: Red Hat Satellite Tools 6.5 (for RHEL 7 Workstation) (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/sat-tools/6.5/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-optional-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - Optional (RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/optional/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-fastrack-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - Fastrack (RPMs)
+Repo URL:  https://cdn.redhat.com/content/fastrack/rhel/workstation/7/$basearch/os
+Enabled:   0
+
+Repo ID:   amq-interconnect-1-for-rhel-7-workstation-rpms
+Repo Name: JBoss AMQ Interconnect 1 (RHEL 7 Workstation) (RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/amq-interconnect/1/os
+Enabled:   0
+
+Repo ID:   rhel-atomic-7-cdk-3.1-rpms
+Repo Name: Red Hat Container Development Kit 3.1 /(RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.1/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-satellite-tools-6.6-source-rpms
+Repo Name: Red Hat Satellite Tools 6.6 (for RHEL 7 Workstation) (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/sat-tools/6.6/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-atomic-7-cdk-3.0-rpms
+Repo Name: Red Hat Container Development Kit 3.0 /(RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.0/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-rhn-tools-beta-debug-rpms
+Repo Name: RHN Tools for Red Hat Enterprise Linux 7 Workstation Beta (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/rhn-tools/debug
+Enabled:   0
+
+Repo ID:   rhel-atomic-7-cdk-2.3-debug-rpms
+Repo Name: Red Hat Container Development Kit 2.3 /(Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/2.3/debug
+Enabled:   0
+
+Repo ID:   rhel-atomic-7-cdk-3.1-debug-rpms
+Repo Name: Red Hat Container Development Kit 3.1 /(Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.1/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-satellite-tools-6.3-puppet4-debug-rpms
+Repo Name: Red Hat Satellite Tools 6.3 - Puppet 4 (for RHEL 7 Workstation) (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/sat-tools/6.3-puppet4/debug
+Enabled:   0
+
+Repo ID:   rhel-atomic-7-cdk-3.6-source-rpms
+Repo Name: Red Hat Container Development Kit 3.6 /(Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.6/source/SRPMS
+Enabled:   0
+
+Repo ID:   amq-textonly-1-for-middleware-rpms
+Repo Name: Red Hat JBoss AMQ Text-Only Advisories
+Repo URL:  https://cdn.redhat.com/content/dist/middleware/amq/1.0/$basearch/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-extras-htb-debug-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - Extras HTB (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/htb/rhel/workstation/7/$basearch/extras/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-satellite-tools-6.5-rpms
+Repo Name: Red Hat Satellite Tools 6.5 (for RHEL 7 Workstation) (RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/sat-tools/6.5/os
+Enabled:   0
+
+Repo ID:   a-mq-clients-1-for-rhel-7-workstation-rpms
+Repo Name: JBoss A-MQ Clients 1 (RHEL 7 Workstation) (RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/a-mq/1/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-rh-common-debug-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - RH Common (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/rh-common/debug
+Enabled:   0
+
+Repo ID:   jon-textonly-1-for-middleware-rpms
+Repo Name: Red Hat JBoss Operations Network Text-Only Advisories
+Repo URL:  https://cdn.redhat.com/content/dist/middleware/jon/1.0/$basearch/os
+Enabled:   0
+
+Repo ID:   amq-interconnect-1-for-rhel-7-workstation-debug-rpms
+Repo Name: JBoss AMQ Interconnect 1 (RHEL 7 Workstation) (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/amq-interconnect/1/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-satellite-tools-6-beta-rpms
+Repo Name: Red Hat Satellite Tools 6 Beta (for RHEL 7 Workstation) (RPMs)
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/sat-tools/6/os
+Enabled:   0
+
+Repo ID:   soa-textonly-1-for-middleware-rpms
+Repo Name: Red Hat JBoss SOA Text-Only Advisories
+Repo URL:  https://cdn.redhat.com/content/dist/middleware/soa/1.0/$basearch/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-devtools-beta-rpms
+Repo Name: Red Hat Developer Tools Beta RPMs for Red Hat Enterprise Linux 7 Workstation
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/devtools/1/os
+Enabled:   0
+
+Repo ID:   rhel-atomic-7-cdk-3.5-rpms
+Repo Name: Red Hat Container Development Kit 3.5 /(RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.5/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-openstack-12-tools-debug-rpms
+Repo Name: Red Hat OpenStack Platform 12 Tools for RHEL 7 Workstation (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/openstack-tools/12/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-extras-htb-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - Extras HTB (RPMs)
+Repo URL:  https://cdn.redhat.com/content/htb/rhel/workstation/7/$basearch/extras/os
+Enabled:   0
+
+Repo ID:   rhel-atomic-7-cdk-3.0-debug-rpms
+Repo Name: Red Hat Container Development Kit 3.0 /(Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.0/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-debug-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-satellite-tools-6-puppet-upgrade-beta-debug-rpms
+Repo Name: Red Hat Satellite Tools 6 Beta - Puppet Upgrade (for RHEL 7 Workstation) (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/sat-tools/6-puppet-upgrade/debug
+Enabled:   0
+
+Repo ID:   rhel-atomic-7-cdk-2.4-rpms
+Repo Name: Red Hat Container Development Kit 2.4 /(RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/2.4/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-rhn-tools-debug-rpms
+Repo Name: RHN Tools for Red Hat Enterprise Linux 7 Workstation (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/rhn-tools/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-rhn-tools-beta-rpms
+Repo Name: RHN Tools for Red Hat Enterprise Linux 7 Workstation Beta (RPMs)
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/rhn-tools/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-satellite-tools-6.1-source-rpms
+Repo Name: Red Hat Satellite Tools 6.1 (for RHEL 7 Workstation) (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/sat-tools/6.1/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-openstack-10-tools-rpms
+Repo Name: Red Hat OpenStack Platform 10 Tools for RHEL 7 Workstation (RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/openstack-tools/10/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-optional-debug-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - Optional (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/optional/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-satellite-tools-6.6-debug-rpms
+Repo Name: Red Hat Satellite Tools 6.6 (for RHEL 7 Workstation) (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/sat-tools/6.6/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-rhceph-1.3-tools-debug-rpms
+Repo Name: Red Hat Ceph Storage Tools 1.3 for Red Hat Enterprise Linux 7 Workstation (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/ceph-tools/1.3/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-devtools-beta-source-rpms
+Repo Name: Red Hat Developer Tools Beta Source RPMs for Red Hat Enterprise Linux 7 Workstation
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/devtools/1/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-satellite-tools-6.1-debug-rpms
+Repo Name: Red Hat Satellite Tools 6.1 (for RHEL 7 Workstation) (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/sat-tools/6.1/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-openstack-11-tools-debug-rpms
+Repo Name: Red Hat OpenStack Platform 11 Tools for RHEL 7 Workstation (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/openstack-tools/11/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-satellite-tools-6-beta-debug-rpms
+Repo Name: Red Hat Satellite Tools 6 Beta (for RHEL 7 Workstation) (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/sat-tools/6/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-openstack-9-tools-rpms
+Repo Name: Red Hat OpenStack Platform 9 Tools for RHEL 7 Workstation (RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/openstack-tools/9/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-optional-beta-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - Optional Beta (RPMs)
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/optional/os
+Enabled:   0
+
+Repo ID:   rhel-atomic-7-cdk-3.2-debug-rpms
+Repo Name: Red Hat Container Development Kit 3.2 /(Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.2/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-optional-fastrack-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - Optional Fastrack (RPMs)
+Repo URL:  https://cdn.redhat.com/content/fastrack/rhel/workstation/7/$basearch/optional/os
+Enabled:   0
+
+Repo ID:   rhel-atomic-7-cdk-3.10-rpms
+Repo Name: Red Hat Container Development Kit 3.10 /(RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.10/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-satellite-maintenance-6-debug-rpms
+Repo Name: Red Hat Satellite Maintenance 6 (for RHEL 7 Workstation) (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/sat-maintenance/6/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-htb-debug-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation HTB (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/htb/rhel/workstation/7/$basearch/debug
+Enabled:   0
+
+Repo ID:   rhel-atomic-7-cdk-2.4-source-rpms
+Repo Name: Red Hat Container Development Kit 2.4 /(Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/2.4/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-thirdparty-oracle-java-source-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - Oracle Java (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/oracle-java/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-satellite-tools-6.6-rpms
+Repo Name: Red Hat Satellite Tools 6.6 (for RHEL 7 Workstation) (RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/sat-tools/6.6/os
+Enabled:   0
+
+Repo ID:   rhel-atomic-7-cdk-3.4-source-rpms
+Repo Name: Red Hat Container Development Kit 3.4 /(Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.4/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-workstation-rhscl-7-beta-source-rpms
+Repo Name: Red Hat Software Collections Beta Source RPMs for Red Hat Enterprise Linux 7 Workstation
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/rhscl/1/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-supplementary-beta-source-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - Supplementary Beta (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/supplementary/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-atomic-7-cdk-3.4-debug-rpms
+Repo Name: Red Hat Container Development Kit 3.4 /(Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.4/debug
+Enabled:   0
+
+Repo ID:   a-mq-clients-1-for-rhel-7-workstation-debug-rpms
+Repo Name: JBoss A-MQ Clients 1 (RHEL 7 Workstation) (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/a-mq/1/debug
+Enabled:   0
+
+Repo ID:   jb-datagrid-textonly-1-for-middleware-rpms
+Repo Name: Red Hat JBoss Data Grid Text-Only Advisories
+Repo URL:  https://cdn.redhat.com/content/dist/middleware/jb-datagrid/1.0/$basearch/os
+Enabled:   0
+
+Repo ID:   amq-interconnect-1-for-rhel-7-workstation-source-rpms
+Repo Name: JBoss AMQ Interconnect 1 (RHEL 7 Workstation) (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/amq-interconnect/1/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-openstack-8-tools-debug-rpms
+Repo Name: Red Hat OpenStack Platform 8 Tools for RHEL 7 Workstation (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/openstack-tools/8/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-rh-common-beta-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - RH Common Beta (RPMs)
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/rh-common/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-openstack-14-tools-rpms
+Repo Name: Red Hat OpenStack Platform 14 Tools for RHEL 7 Workstation (RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/openstack-tools/14/os
+Enabled:   0
+
+Repo ID:   rhel-atomic-7-cdk-3.3-debug-rpms
+Repo Name: Red Hat Container Development Kit 3.3 /(Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.3/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-optional-fastrack-debug-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - Optional Fastrack (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/fastrack/rhel/workstation/7/$basearch/optional/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-satellite-tools-6.5-debug-rpms
+Repo Name: Red Hat Satellite Tools 6.5 (for RHEL 7 Workstation) (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/sat-tools/6.5/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-rhceph-2-tools-debug-rpms
+Repo Name: Red Hat Ceph Storage Tools 2 for Red Hat Enterprise Linux 7 Workstation (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/ceph-tools/2/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-dotnet-beta-rpms
+Repo Name: dotNET on RHEL Beta RPMs for Red Hat Enterprise Linux 7 Workstation
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/dotnet/1/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-htb-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation HTB (RPMs)
+Repo URL:  https://cdn.redhat.com/content/htb/rhel/workstation/7/$basearch/os
+Enabled:   1
+
+Repo ID:   wfk-textonly-1-for-middleware-rpms
+Repo Name: Red Hat JBoss Web Framework Kit Text-Only Advisories
+Repo URL:  https://cdn.redhat.com/content/dist/middleware/wfk/1.0/$basearch/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-supplementary-source-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - Supplementary (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/supplementary/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-thirdparty-oracle-java-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - Oracle Java (RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/oracle-java/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-insights-3-rpms
+Repo Name: Red Hat Insights 3 (for RHEL 7 Workstation) (RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/insights/3/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-devtools-debug-rpms
+Repo Name: Red Hat Developer Tools Debug RPMs for Red Hat Enterprise Linux 7 Workstation
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/devtools/1/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-rhceph-2-tools-rpms
+Repo Name: Red Hat Ceph Storage Tools 2 for Red Hat Enterprise Linux 7 Workstation (RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/ceph-tools/2/os
+Enabled:   0
+
+Repo ID:   rhel-workstation-rhscl-7-beta-rpms
+Repo Name: Red Hat Software Collections Beta RPMs for Red Hat Enterprise Linux 7 Workstation
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/rhscl/1/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-satellite-tools-6.4-debug-rpms
+Repo Name: Red Hat Satellite Tools 6.4 (for RHEL 7 Workstation) (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/sat-tools/6.4/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-rhn-tools-rpms
+Repo Name: RHN Tools for Red Hat Enterprise Linux 7 Workstation (RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/rhn-tools/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-openstack-13-tools-debug-rpms
+Repo Name: Red Hat OpenStack Platform 13 Tools for RHEL 7 Workstation (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/openstack-tools/13/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-openstack-11-tools-rpms
+Repo Name: Red Hat OpenStack Platform 11 Tools for RHEL 7 Workstation (RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/openstack-tools/11/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-htb-source-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation HTB (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/htb/rhel/workstation/7/$basearch/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-atomic-7-cdk-3.0-beta-source-rpms
+Repo Name: Red Hat Container Development Kit 3.0 Beta /(Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/atomic/7/$basearch/cdk/3.0/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-openstack-8-tools-rpms
+Repo Name: Red Hat OpenStack Platform 8 Tools for RHEL 7 Workstation (RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/openstack-tools/8/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-beta-source-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation Beta (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-satellite-tools-6.1-rpms
+Repo Name: Red Hat Satellite Tools 6.1 (for RHEL 7 Workstation) (RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/sat-tools/6.1/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-extras-beta-source-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - Extras Beta (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/extras/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-openstack-13-tools-rpms
+Repo Name: Red Hat OpenStack Platform 13 Tools for RHEL 7 Workstation (RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/openstack-tools/13/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-satellite-maintenance-6-beta-rpms
+Repo Name: Red Hat Satellite Maintenance 6 Beta (for RHEL 7 Workstation) (RPMs)
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/sat-maintenance/6/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-satellite-tools-6.3-rpms
+Repo Name: Red Hat Satellite Tools 6.3 (for RHEL 7 Workstation) (RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/sat-tools/6.3/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-devtools-source-rpms
+Repo Name: Red Hat Developer Tools Source RPMs for Red Hat Enterprise Linux 7 Workstation
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/devtools/1/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-openstack-9-tools-source-rpms
+Repo Name: Red Hat OpenStack Platform 9 Tools for RHEL 7 Workstation (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/openstack-tools/9/source/SRPMS
+Enabled:   0
+
+Repo ID:   jb-eap-textonly-1-for-middleware-rpms
+Repo Name: Red Hat JBoss Enterprise Application Platform Text-Only Advisories
+Repo URL:  https://cdn.redhat.com/content/dist/middleware/jbeap/1.0/$basearch/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-source-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-satellite-tools-6-puppet-upgrade-beta-rpms
+Repo Name: Red Hat Satellite Tools 6 Beta - Puppet Upgrade (for RHEL 7 Workstation) (RPMs)
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/sat-tools/6-puppet-upgrade/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-beta-debug-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation Beta (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/debug
+Enabled:   0
+
+Repo ID:   rhel-atomic-7-cdk-3.3-rpms
+Repo Name: Red Hat Container Development Kit 3.3 /(RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.3/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-openstack-14-tools-debug-rpms
+Repo Name: Red Hat OpenStack Platform 14 Tools for RHEL 7 Workstation (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/openstack-tools/14/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-extras-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - Extras (RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/extras/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-satellite-tools-6.3-debug-rpms
+Repo Name: Red Hat Satellite Tools 6.3 (for RHEL 7 Workstation) (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/sat-tools/6.3/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation (RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/os
+Enabled:   1
+
+Repo ID:   rhel-7-workstation-openstack-13-tools-source-rpms
+Repo Name: Red Hat OpenStack Platform 13 Tools for RHEL 7 Workstation (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/openstack-tools/13/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-devtools-rpms
+Repo Name: Red Hat Developer Tools RPMs for Red Hat Enterprise Linux 7 Workstation
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/devtools/1/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-optional-fastrack-source-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - Optional Fastrack (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/fastrack/rhel/workstation/7/$basearch/optional/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-satellite-tools-6.2-rpms
+Repo Name: Red Hat Satellite Tools 6.2 (for RHEL 7 Workstation) (RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/sat-tools/6.2/os
+Enabled:   0
+
+Repo ID:   a-mq-clients-1-for-rhel-7-workstation-source-rpms
+Repo Name: JBoss A-MQ Clients 1 (RHEL 7 Workstation) (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/a-mq/1/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-workstation-rhscl-7-rpms
+Repo Name: Red Hat Software Collections RPMs for Red Hat Enterprise Linux 7 Workstation
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/rhscl/1/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-optional-htb-source-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - Optional HTB (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/htb/rhel/workstation/7/$basearch/optional/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-openstack-14-tools-source-rpms
+Repo Name: Red Hat OpenStack Platform 14 Tools for RHEL 7 Workstation (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/openstack-tools/14/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-satellite-tools-6.4-source-rpms
+Repo Name: Red Hat Satellite Tools 6.4 (for RHEL 7 Workstation) (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/sat-tools/6.4/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-supplementary-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - Supplementary (RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/supplementary/os
+Enabled:   0
+
+Repo ID:   rhel-atomic-7-cdk-3.3-source-rpms
+Repo Name: Red Hat Container Development Kit 3.3 /(Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.3/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-atomic-7-cdk-3.0-source-rpms
+Repo Name: Red Hat Container Development Kit 3.0 /(Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.0/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-extras-debug-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - Extras (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/extras/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-extras-htb-source-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - Extras HTB (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/htb/rhel/workstation/7/$basearch/extras/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-supplementary-beta-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - Supplementary Beta (RPMs)
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/supplementary/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-rh-common-beta-source-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - RH Common Beta (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/rh-common/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-atomic-7-cdk-3.5-source-rpms
+Repo Name: Red Hat Container Development Kit 3.5 /(Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.5/source/SRPMS
+Enabled:   0
+
+Repo ID:   jpp-textonly-1-for-middleware-rpms
+Repo Name: Red Hat JBoss Portal Text-Only Advisories
+Repo URL:  https://cdn.redhat.com/content/dist/middleware/jpp/1.0/$basearch/os
+Enabled:   0
+
+Repo ID:   rhel-atomic-7-cdk-3.6-rpms
+Repo Name: Red Hat Container Development Kit 3.6 /(RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.6/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-satellite-tools-6.3-puppet4-rpms
+Repo Name: Red Hat Satellite Tools 6.3 - Puppet 4 (for RHEL 7 Workstation) (RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/sat-tools/6.3-puppet4/os
+Enabled:   0
+
+Repo ID:   rhel-workstation-rhscl-7-beta-debug-rpms
+Repo Name: Red Hat Software Collections Beta Debug RPMs for Red Hat Enterprise Linux 7 Workstation
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/rhscl/1/debug
+Enabled:   0
+
+Repo ID:   rhel-atomic-7-cdk-3.4-rpms
+Repo Name: Red Hat Container Development Kit 3.4 /(RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.4/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-extras-beta-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - Extras Beta (RPMs)
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/extras/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-satellite-tools-6.4-rpms
+Repo Name: Red Hat Satellite Tools 6.4 (for RHEL 7 Workstation) (RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/sat-tools/6.4/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-optional-htb-debug-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - Optional HTB (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/htb/rhel/workstation/7/$basearch/optional/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-insights-3-source-rpms
+Repo Name: Red Hat Insights 3 (for RHEL 7 Workstation) (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/insights/3/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-devtools-beta-debug-rpms
+Repo Name: Red Hat Developer Tools Beta Debug RPMs for Red Hat Enterprise Linux 7 Workstation
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/devtools/1/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-supplementary-debug-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - Supplementary (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/supplementary/debug
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-satellite-maintenance-6-beta-debug-rpms
+Repo Name: Red Hat Satellite Maintenance 6 Beta (for RHEL 7 Workstation) (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/sat-maintenance/6/debug
+Enabled:   0
+
+Repo ID:   jb-coreservices-textonly-1-for-middleware-rpms
+Repo Name: Red Hat JBoss Core Services Text-Only Advisories
+Repo URL:  https://cdn.redhat.com/content/dist/middleware/jbcs/1.0/$basearch/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-fastrack-source-rpms
+Repo Name: Red Hat Enterprise Linux 7 Workstation - Fastrack (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/fastrack/rhel/workstation/7/$basearch/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-satellite-tools-6.3-source-rpms
+Repo Name: Red Hat Satellite Tools 6.3 (for RHEL 7 Workstation) (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/sat-tools/6.3/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-openstack-12-tools-source-rpms
+Repo Name: Red Hat OpenStack Platform 12 Tools for RHEL 7 Workstation (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/openstack-tools/12/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-atomic-7-cdk-3.6-debug-rpms
+Repo Name: Red Hat Container Development Kit 3.6 /(Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.6/debug
+Enabled:   0
+
+Repo ID:   fsw-textonly-1-for-middleware-rpms
+Repo Name: Red Hat JBoss Fuse Service Works Text-Only Advisories
+Repo URL:  https://cdn.redhat.com/content/dist/middleware/fsw/1.0/$basearch/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-openstack-10-tools-debug-rpms
+Repo Name: Red Hat OpenStack Platform 10 Tools for RHEL 7 Workstation (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/openstack-tools/10/debug
+Enabled:   0
+
+Repo ID:   jws-textonly-1-for-middleware-rpms
+Repo Name: Red Hat JBoss Web Server Text-Only Advisories
+Repo URL:  https://cdn.redhat.com/content/dist/middleware/jws/1.0/$basearch/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-rhceph-2-tools-source-rpms
+Repo Name: Red Hat Ceph Storage Tools 2 for Red Hat Enterprise Linux 7 Workstation (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/ceph-tools/2/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-satellite-maintenance-6-beta-source-rpms
+Repo Name: Red Hat Satellite Maintenance 6 Beta (for RHEL 7 Workstation) (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/beta/rhel/workstation/7/$basearch/sat-maintenance/6/source/SRPMS
+Enabled:   0
+
+Repo ID:   amq-clients-2-for-rhel-7-workstation-rpms
+Repo Name: Red Hat AMQ Clients 2 (RHEL 7 Workstation) (RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/amq/2/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-rhceph-1.3-tools-source-rpms
+Repo Name: Red Hat Ceph Storage Tools 1.3 for Red Hat Enterprise Linux 7 Workstation (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/$releasever/$basearch/ceph-tools/1.3/source/SRPMS
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-openstack-12-tools-rpms
+Repo Name: Red Hat OpenStack Platform 12 Tools for RHEL 7 Workstation (RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/openstack-tools/12/os
+Enabled:   0
+
+Repo ID:   rhel-7-workstation-insights-3-debug-rpms
+Repo Name: Red Hat Insights 3 (for RHEL 7 Workstation) (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/insights/3/debug
+Enabled:   0
+
+Repo ID:   rhel-atomic-7-cdk-2.3-source-rpms
+Repo Name: Red Hat Container Development Kit 2.3 /(Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/2.3/source/SRPMS
+Enabled:   0
+
+Repo ID:   amq-clients-2-for-rhel-7-workstation-debug-rpms
+Repo Name: Red Hat AMQ Clients 2 (RHEL 7 Workstation) (Debug RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/workstation/7/7Workstation/$basearch/amq/2/debug
+Enabled:   0
+
