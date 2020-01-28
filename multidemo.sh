@@ -44,14 +44,17 @@ oc whoami > /dev/null && echo "${cyan}*** Logged in as: $(oc whoami) ***${reset}
 project=${exampleproj}
 oc delete project ${project}
 oc new-project  ${project}
+
+# oc new-app jenkins-ephemeral --param MEMORY_LIMIT=1Gi
+
 read -p "${green}Part 1: Deploying and scale Source-Built Applications ${reset}"
 
 read -p "${blue} Make a sample application from source (github)   ${reset}"
 #oc new-app --name=source-built-example redhat-openjdk18-openshift:1.4 https://github.com/openshift-roadshow/nationalparks --labels="app=workshop,component=nationalparks,role=backend"
 #oc new-app --name=source-built-example wildfly:10.0~https://github.com/joshmsmith/bootwildfly
 #oc new-app --name=source-built-example eap-cd-openshift:12 https://github.com/joshmsmith/bootwildfly --labels="app=javademo,component=wildfly,role=demo"
-#oc new-app --name=source-built-example dotnet:2.1~https://github.com/redhat-developer/s2i-dotnetcore-ex#dotnetcore-2.1 --build-env DOTNET_STARTUP_PROJECT=app 
-oc new-app centos/ruby-25-centos7~https://github.com/sclorg/ruby-ex.git --name=source-built-example
+oc new-app --name=source-built-example dotnet:2.1~https://github.com/redhat-developer/s2i-dotnetcore-ex#dotnetcore-2.1 --build-env DOTNET_STARTUP_PROJECT=app 
+#oc new-app centos/ruby-25-centos7~https://github.com/sclorg/ruby-ex.git --name=source-built-example
 
 read -p "${blue} Create a health check... ${reset}"
 oc set probe dc/source-built-example --readiness "--get-url=http://:8080/" --initial-delay-seconds=5
@@ -77,9 +80,9 @@ else
 fi
 
 
-read -p "${blue} 2. Deploy first copy of the example application  (also Jenkins for later) ${reset}"
+read -p "${blue} 2. Deploy first copy of the example application  ${reset}"
 oc new-app --name=example-blue openshift/deployment-example:v1
-oc new-app jenkins-ephemeral --param MEMORY_LIMIT=1Gi
+#oc new-app jenkins-ephemeral --param MEMORY_LIMIT=1Gi
 
 
 read -p "${blue} 3. Create route to first copy of the example application  ${reset}"
@@ -101,28 +104,28 @@ oc edit route/example
 read -p "${blue} 6. In your browser, refresh the page until you see the 'v2' image. ${reset}"
 echo 
 
-read -p "${green}Part 2: Pipeline Blue-Green Deployment - press enter to begin ${reset}"
+# read -p "${green}Part 2: Pipeline Blue-Green Deployment - press enter to begin ${reset}"
 
 #read -p "${blue} 1. Create a Jenkins instance ${reset}"
 #oc new-app jenkins-ephemeral --param MEMORY_LIMIT=1Gi
 
-read -p "${blue} 2. Turn off all triggers from our deployment configurations ${reset}"
-oc set triggers dc/example-green --remove-all
-oc set triggers dc/example-blue --remove-all
+#read -p "${blue} 2. Turn off all triggers from our deployment configurations ${reset}"
+#oc set triggers dc/example-green --remove-all
+#oc set triggers dc/example-blue --remove-all
 
-read -p "${blue} 3. Create the Pipeline Build Configuration ${reset}"
-oc create -f \
-https://raw.githubusercontent.com/wkulhanek/openshift-bluegreen/master/example-pipeline.yaml
+#read -p "${blue} 3. Create the Pipeline Build Configuration ${reset}"
+#oc create -f \
+#https://raw.githubusercontent.com/wkulhanek/openshift-bluegreen/master/example-pipeline.yaml
 
-read -p "${blue} 4. In the Web Console navigate to your project. ${reset}"
-read -p "${blue} 5. Select Builds/Pipelines in the navigator on the left. " 
-read -p "   ● You will see your Pipeline configuration. It points to a Jenkinsfile in Github. "
-read -p "   ● Click Start Pipeline to kick off a new build. "
-read -p "   ● The build will progress until it is time to approve switching over to the new version of the application. "
-read -p "   ● At this point you can verify that even though we deployed a new version of the application in the other deployment configuration our route still displays the blue v1 text."
-read -p "   ● Back in your pipeline click the Input Required link. You will be directed to the Jenkins Login Page. Log in with your OpenShift credentials. "
-read -p "   ● Click Proceed to continue the deployment of the new application version. "
-read -p "   ● Refresh the route to see the updated application. The first time you will see a light green box with text ‘v2’. ${reset}"
+#read -p "${blue} 4. In the Web Console navigate to your project. ${reset}"
+#read -p "${blue} 5. Select Builds/Pipelines in the navigator on the left. " 
+#read -p "   ● You will see your Pipeline configuration. It points to a Jenkinsfile in Github. "
+#read -p "   ● Click Start Pipeline to kick off a new build. "
+#read -p "   ● The build will progress until it is time to approve switching over to the new version of the application. "
+#read -p "   ● At this point you can verify that even though we deployed a new version of the application in the other deployment configuration our route still displays the blue v1 text."
+#read -p "   ● Back in your pipeline click the Input Required link. You will be directed to the Jenkins Login Page. Log in with your OpenShift credentials. "
+#read -p "   ● Click Proceed to continue the deployment of the new application version. "
+#read -p "   ● Refresh the route to see the updated application. The first time you will see a light green box with text ‘v2’. ${reset}"
 
 read -p "${yellow} CLEANUP! Press [enter] to cleanup, [ctrl+c] to leave the project ${reset}"
 oc delete project ${project}
