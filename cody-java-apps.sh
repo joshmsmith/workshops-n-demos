@@ -1,8 +1,7 @@
-
 #!/bin/bash
-# usage: -u user1 -i 4b7d -p openshift -n user1
+# usage: -u user1 -i -omf-4b7d -p openshift -n user1
 
-# create some util functions
+# create some utility functions
 
 isPrereqMet(){
   if [[ ($END_AFTER_STEP == "" || $END_AFTER_STEP -ge 14) && $(type $1 2> /dev/null ) == '' ]];then 
@@ -148,7 +147,7 @@ if [[ $OC_HOST == "" && $CLUSTER_UID == ""  ]];then
   echo -n "Enter cluster url, eg 'https://master.omf-4b7d.open.redhat.com' :"
   read OC_HOST
 elif [[ $OC_HOST == "" ]];then
-  OC_HOST="https://master.omf-$CLUSTER_UID.open.redhat.com" 
+  OC_HOST="https://master.$CLUSTER_UID.open.redhat.com" 
   echo "Using OC_HOST $OC_HOST"
 else 
   CLUSTER_UID=$(echo $OC_HOST|awk -F '-' '{print $2}' |awk -F '.' '{print $1}')
@@ -160,7 +159,7 @@ fi
 PARKSMAP_IMAGE=docker.io/openshiftroadshow/parksmap:1.2.0 
 PARKSMAP_LABELS="app=workshop component=parksmap role=frontend"
 NATIONALPARK_LABELS="app=workshop component=nationalparks role=backend"
-GOGS_HOST="gogs-lab-infra.apps.omf-$CLUSTER_UID.open.redhat.com"
+GOGS_HOST="gogs-lab-infra.apps.$CLUSTER_UID.open.redhat.com"
 NATIONALPARK_GIT_HOST="$GOGS_HOST/$OC_USERNAME/nationalparks.git"
 NATIONALPARK_GIT_URL="http://$NATIONALPARK_GIT_HOST"
 MAVEN_MIRROR_URL=http://nexus.lab-infra.svc.cluster.local:8081/repository/maven-all-public
