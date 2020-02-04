@@ -1,6 +1,6 @@
 #!/usr/bin/env bash 
 
-# author : josh smith (based on ipbabble's other demos) 
+# author : josh smith (@architect_josh) and lainie vyvyan (@lainie_ftw) (based on ipbabble's other demos) 
 # Set some of the variables below
 
 #demoimg=mymultidemo
@@ -36,38 +36,38 @@ reset=$(tput sgr0)
 #echo -e "Using ${blue}BLUE${reset} to list major steps"
 #echo -e "Using ${cyan}CYAN${reset} to add notes "
 #echo -e "Building an image called ${demoimg}"
-read -p "${green}Demo OpenShift deploys - press enter to proceed ${reset}"
+read -p "${green}Demo OpenShift Blue/Green and A/B deploys - press enter to proceed ${reset}"
 
 read -p "${blue} 0. Verify OpenShift Login ${reset}"
 oc whoami > /dev/null && echo "${cyan}*** Logged in as: $(oc whoami) ***${reset}"
 
 project=${exampleproj}
-oc delete project ${project}
+#oc delete project ${project}
 oc new-project  ${project}
 
 # oc new-app jenkins-ephemeral --param MEMORY_LIMIT=1Gi
 
-read -p "${green}Part 1: Deploying and scale Source-Built Applications ${reset}"
+#read -p "${green}Part 1: Deploying and scale Source-Built Applications ${reset}"
 
-read -p "${blue} Make a sample application from source (github)   ${reset}"
+#read -p "${blue} Make a sample application from source (github)   ${reset}"
 #oc new-app --name=source-built-example redhat-openjdk18-openshift:1.4 https://github.com/openshift-roadshow/nationalparks --labels="app=workshop,component=nationalparks,role=backend"
 #oc new-app --name=source-built-example wildfly:10.0~https://github.com/joshmsmith/bootwildfly
 #oc new-app --name=source-built-example eap-cd-openshift:12 https://github.com/joshmsmith/bootwildfly --labels="app=javademo,component=wildfly,role=demo"
-oc new-app --name=source-built-example dotnet:2.1~https://github.com/redhat-developer/s2i-dotnetcore-ex#dotnetcore-2.1 --build-env DOTNET_STARTUP_PROJECT=app 
+#oc new-app --name=source-built-example dotnet:2.1~https://github.com/redhat-developer/s2i-dotnetcore-ex#dotnetcore-2.1 --build-env DOTNET_STARTUP_PROJECT=app 
 #oc new-app centos/ruby-25-centos7~https://github.com/sclorg/ruby-ex.git --name=source-built-example
 
-read -p "${blue} Create a health check... ${reset}"
-oc set probe dc/source-built-example --readiness "--get-url=http://:8080/" --initial-delay-seconds=5
+#read -p "${blue} Create a health check... ${reset}"
+#oc set probe dc/source-built-example --readiness "--get-url=http://:8080/" --initial-delay-seconds=5
 
-read -p "${blue} Create Networking to Service Group ${reset}"
-oc expose service source-built-example
+#read -p "${blue} Create Networking to Service Group ${reset}"
+#oc expose service source-built-example
 
-read -p "${blue} Scale that app to ten instances ${reset}"
-oc scale --replicas=10 dc/source-built-example
+#read -p "${blue} Scale that app to ten instances ${reset}"
+#oc scale --replicas=10 dc/source-built-example
 
-read -p "${blue} In the UI, delete a pod and demonstrate auto-recovery ${reset}"
+#read -p "${blue} In the UI, delete a pod and demonstrate auto-recovery ${reset}"
 
-echo ""
+#echo ""
 read -p "${green}Part 2: Blue/Green Deployment Strategy ${reset}"
 project=${bgproject}
 if [ "$bgproject" = $exampleproj ];
@@ -104,6 +104,14 @@ oc edit route/example
 read -p "${blue} 6. In your browser, refresh the page until you see the 'v2' image. ${reset}"
 echo 
 
+read -p "${blue}Part 3: Update to use A/B Routing - press enter to being ${reset}"
+read -p "${blue}1. Edit the route and add example-green in as an alternateBackend. ${reset}"
+read -p "${blue} (add per the docs: https://docs.openshift.com/container-platform/4.3/applications/deployments/route-based-deployment-strategies.html#deployments-ab-testing-lb_route-based-deployment-strategies under the last change) ${reset}"
+
+oc edit route/example
+
+read -p "${blue}2. Open a browser with a new session and try the route again! ${reset}"
+
 # read -p "${green}Part 2: Pipeline Blue-Green Deployment - press enter to begin ${reset}"
 
 #read -p "${blue} 1. Create a Jenkins instance ${reset}"
@@ -129,15 +137,3 @@ echo
 
 read -p "${yellow} CLEANUP! Press [enter] to cleanup, [ctrl+c] to leave the project ${reset}"
 oc delete project ${project}
-
-
-
-
-
-
-
-
-
-
-
-
